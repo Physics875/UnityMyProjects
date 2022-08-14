@@ -1,5 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
@@ -14,7 +12,7 @@ public class EnemyAI : MonoBehaviour
     public float fireRate;
     private float nextFire = 0f;
     private bool facingRight;
-    private CharacterController2D character;
+    private CharacterController2D character; //This script is incomplete...
 
     void Start()
     {
